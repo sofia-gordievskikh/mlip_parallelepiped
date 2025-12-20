@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlip_parallelepiped"
+version = "0.2.0"
+description = "Inner box search для MILP: коробка и параллелепипед в допустимой области"
+requires-python = ">=3.9"
+dependencies = ["numpy", "scipy", "matplotlib", "pyyaml"]
+
+[tool.setuptools]
+packages = ["mlip_parallelepiped"]

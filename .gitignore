@@ -3,3 +3,7 @@ __pycache__/
 *.pyc
 results/
 *.pdf
+*.egg-info/
+build/
+.pytest_cache/
+.ipynb_checkpoints/

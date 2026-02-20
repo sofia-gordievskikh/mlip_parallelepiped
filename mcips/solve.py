@@ -1,7 +1,7 @@
 """CLI: решить задачу из YAML-конфига коробкой и параллелепипедом.
 
-    python -m mlip_parallelepiped.solve --config configs/demo.yaml
-    python -m mlip_parallelepiped.solve --config configs/demo.yaml --plot out.png
+    python -m mcips.solve --config configs/demo.yaml
+    python -m mcips.solve --config configs/demo.yaml --plot out.png
 """
 from __future__ import annotations
 
@@ -57,7 +57,7 @@ def _fmt(res: dict) -> str:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="inner box / parallelepiped search")
+    parser = argparse.ArgumentParser(description="MCIPS: cube / parallelepiped inscribed search")
     parser.add_argument("--config", default="configs/demo.yaml")
     parser.add_argument("--plot", default=None, help="сохранить 2D-сравнение в файл")
     args = parser.parse_args()

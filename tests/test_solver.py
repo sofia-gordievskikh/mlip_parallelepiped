@@ -2,14 +2,14 @@
 import numpy as np
 import pytest
 
-from mlip_parallelepiped import (
+from mcips import (
     Problem,
     inner_box_search,
     parallelepiped_search,
     solve_box_lp,
     solve_parallelepiped,
 )
-from mlip_parallelepiped.geometry import (
+from mcips.geometry import (
     box_vertices,
     identity_basis,
     parallelepiped_vertices,

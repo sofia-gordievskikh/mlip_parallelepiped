@@ -14,9 +14,9 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 from mpl_toolkits.mplot3d import Axes3D  # noqa: F401,E402
 
-from mlip_parallelepiped.geometry import Problem, identity_basis  # noqa: E402
-from mlip_parallelepiped.solver import parallelepiped_search  # noqa: E402
-from mlip_parallelepiped.visualization import (  # noqa: E402
+from mcips.geometry import Problem, identity_basis  # noqa: E402
+from mcips.solver import parallelepiped_search  # noqa: E402
+from mcips.visualization import (  # noqa: E402
     parallelepiped_vertices,
     plot_box_3d,
     set_axes_equal,

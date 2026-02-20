@@ -14,9 +14,9 @@ import numpy as np
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt  # noqa: E402
 
-from mlip_parallelepiped import inner_box_search, parallelepiped_search  # noqa: E402
-from mlip_parallelepiped.geometry import Problem, rotation_2d  # noqa: E402
-from mlip_parallelepiped.visualization import (  # noqa: E402
+from mcips import inner_box_search, parallelepiped_search  # noqa: E402
+from mcips.geometry import Problem, rotation_2d  # noqa: E402
+from mcips.visualization import (  # noqa: E402
     plot_box_2d,
     plot_parallelepiped_2d,
     plot_region_2d,

@@ -4,8 +4,8 @@
 """
 import numpy as np
 
-from mlip_parallelepiped import inner_box_search, parallelepiped_search
-from mlip_parallelepiped.geometry import Problem, rotation_2d
+from mcips import inner_box_search, parallelepiped_search
+from mcips.geometry import Problem, rotation_2d
 
 
 def main() -> None:
